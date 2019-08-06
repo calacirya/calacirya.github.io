@@ -32,3 +32,4 @@ Principles of a change log, excerpted from [Keep a Changelog](http://keepachange
  * Git metafiles and ReadMe file.
  * Changelog file.
  * Favicon.
+ * Populated page with data drawn from the GitHub metadata.
