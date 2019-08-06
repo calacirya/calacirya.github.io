@@ -8,7 +8,8 @@ layout: default
 {{ site.title }} is a project aiming to embark some more robust projects from [Nereare](https://github.com/Nereare).
 
 ## {{ site.title }} Projects
-{% for project in site.github.public_repositories | sort: "name" %}
+{% assign projects = site.github.public_repositories | sort: 'name' %}
+{% for project in projects %}
 {% unless project.private %}
  * **[{{ project.name }}]({{ project.html_url }}):** {{ project.description }} Distributed under the [{{ project.license.name }}]({{ project.license.url }}).
 {% endunless %}
@@ -16,7 +17,8 @@ layout: default
 
 ## Members
 <div class="member">
-{% for member in site.github.organization_members | uniq | sort: "login" %}
+{% assign members = site.github.organization_members | uniq | sort: 'login' %}
+{% for member in members %}
 <a href="{{ member.html_url }}">
   <img alt="{{ member.login }}'s avatar" src="{{ member.avatar_url }}" />
   <p>{{ member.login }}</p>
