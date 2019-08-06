@@ -20,5 +20,5 @@ theme: jekyll-theme-cayman
 star_project: Hearth
 
 menus:
-  - link: "/posts"
-    text: "Blog"
+  - link: /posts
+    text: Blog
