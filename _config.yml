@@ -1,0 +1,15 @@
+title: Calacirya
+description: The GitHub page to the Calacirya organization.
+github_username:  Calacirya
+
+plugins:
+  - jekyll-mentions
+  - jemoji
+  - jekyll-sitemap
+  - jekyll-feed
+
+theme: jekyll-theme-cayman
+
+#menus:
+#  - link: "/coc"
+#    text: "Code of Conduct"
