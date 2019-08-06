@@ -25,3 +25,5 @@ layout: default
 </a>
 {% endfor %}
 </div>
+
+<p>{{ site.github }}</p>
