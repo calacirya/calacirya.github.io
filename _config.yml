@@ -1,6 +1,6 @@
 title: Calacirya
 description: Sí vanwa ná, Rómello vanwa, Valimar!
-github_username:  Calacirya
+home: https://github.com/calacirya/
 
 plugins:
   - jekyll-mentions
@@ -13,3 +13,7 @@ theme: jekyll-theme-cayman
 #menus:
 #  - link: "/coc"
 #    text: "Code of Conduct"
+
+#projects:
+#  - repo: project-name
+#    name: Project Name
