@@ -26,9 +26,20 @@ Principles of a change log, excerpted from [Keep a Changelog](http://keepachange
 
 ## [Unreleased]
 
+## [1.0.0]
+
 ### Added
  * Code of Conduct from [Contributor Covenant v1.4.1](https://www.contributor-covenant.org/).
  * [License](LICENSE.md).
  * Git metafiles and ReadMe file.
  * Changelog file.
  * Favicon.
+ * Populated page with data drawn from the GitHub metadata.
+ * Site:
+   - Small blob;
+   - Repository auto list;
+   - Organization members auto list;
+   - 404 page (Jekyll-generated).
+
+[Unreleased]: https://github.com/calacirya/calacirya.github.io/compare/1.0.0...HEAD
+[1.0.0]: https://github.com/calacirya/calacirya.github.io/releases/tag/1.0.0

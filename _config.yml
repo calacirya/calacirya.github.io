@@ -1,5 +1,6 @@
 title: Calacirya
 description: Sí vanwa ná, Rómello vanwa, Valimar!
+repository: calacirya/calacirya.github.io
 home: https://github.com/calacirya/
 
 plugins:
@@ -7,13 +8,18 @@ plugins:
   - jemoji
   - jekyll-sitemap
   - jekyll-feed
+  - jekyll-github-metadata
+
+sass:
+  style: compressed
 
 theme: jekyll-theme-cayman
+
+# If you want a starred project on display, add it's name below.
+# Please note that this method draws the from GitHub Metadata's
+#   public_repositories to show appropriate data.
+star_project: foo
 
 #menus:
 #  - link: "/coc"
 #    text: "Code of Conduct"
-
-#projects:
-#  - repo: project-name
-#    name: Project Name
