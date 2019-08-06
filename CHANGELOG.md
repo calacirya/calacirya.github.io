@@ -26,6 +26,8 @@ Principles of a change log, excerpted from [Keep a Changelog](http://keepachange
 
 ## [Unreleased]
 
+## [1.0.0]
+
 ### Added
  * Code of Conduct from [Contributor Covenant v1.4.1](https://www.contributor-covenant.org/).
  * [License](LICENSE.md).
@@ -33,3 +35,6 @@ Principles of a change log, excerpted from [Keep a Changelog](http://keepachange
  * Changelog file.
  * Favicon.
  * Populated page with data drawn from the GitHub metadata.
+
+[Unreleased]: https://github.com/calacirya/calacirya.github.io/compare/1.0.0...HEAD
+[1.0.0]: https://github.com/calacirya/calacirya.github.io/releases/tag/1.0.0
