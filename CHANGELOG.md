@@ -35,6 +35,11 @@ Principles of a change log, excerpted from [Keep a Changelog](http://keepachange
  * Changelog file.
  * Favicon.
  * Populated page with data drawn from the GitHub metadata.
+ * Site:
+   - Small blob;
+   - Repository auto list;
+   - Organization members auto list;
+   - 404 page (Jekyll-generated).
 
 [Unreleased]: https://github.com/calacirya/calacirya.github.io/compare/1.0.0...HEAD
 [1.0.0]: https://github.com/calacirya/calacirya.github.io/releases/tag/1.0.0
