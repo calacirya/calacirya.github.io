@@ -1,0 +1,14 @@
+### These are the team owners of this project ###
+
+# The project is owned by the Calacirya Dev team.
+*                    @calacirya/dev
+
+# The site contents
+*.md                 @calacirya/content
+
+# The site meta markdown files, which are under the Dev team.
+CHANGELOG.md         @calacirya/dev
+CODE-OF-CONDUCT.md   @calacirya/dev
+CONTRIBUTING.md      @calacirya/dev
+README.md            @calacirya/dev
+LICENSE.md           @calacirya/dev
