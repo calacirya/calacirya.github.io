@@ -1,6 +1,7 @@
 title: Calacirya
 description: Sí vanwa ná, Rómello vanwa, Valimar!
 repository: calacirya/calacirya.github.io
+date_format: '%A, %B %e, %Y'
 
 plugins:
   - jekyll-mentions
