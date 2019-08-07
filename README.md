@@ -1,6 +1,6 @@
 # Calacirya GitHub Page
 
-[![Version](https://img.shields.io/badge/Version-1.1.1-brightgreen)](https://github.com/calacirya/calacirya.github.io/tags)
+[![Version](https://img.shields.io/badge/Version-1.1.2-brightgreen)](https://github.com/calacirya/calacirya.github.io/tags)
 [![License](https://img.shields.io/github/license/calacirya/calacirya.github.io.svg)](LICENSE.md)
 [![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-v1.4%20adopted-ff69b4.svg)](code-of-conduct.md)
 [![Website](https://img.shields.io/website/https/calacirya.github.io)](http://calacirya.github.io)
