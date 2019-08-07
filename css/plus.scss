@@ -4,13 +4,9 @@
 
 body, p, a { text-align: justify; }
 
-div#fav {
+header div {
   margin: 2em auto 0;
-  border: 1px solid rgba(255, 255, 255, 0.2);
-  border-radius: 0.3em;
-  background-color: #ffffff;
   text-align: justify;
-  color: #606c71;
   @media screen and (min-width: 1024px) { width: 75%; }
   @media screen and (min-width: 1600px) { width: 50%; }
   @media screen and (max-width: 672px) { width: 100%; }
@@ -19,7 +15,20 @@ div#fav {
     font-size: 1.5em;
     font-weight: normal;
     margin-top: 1em;
-    color: #159957;
+  }
+
+  // Starred Repository
+  &#fav {
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 0.3em;
+    background-color: #ffffff;
+    color: #606c71;
+    h2 { color: #159957; }
+  }
+
+  // Blog Title, Author and Date
+  &#post {
+    div { display: none; }
   }
 }
 
