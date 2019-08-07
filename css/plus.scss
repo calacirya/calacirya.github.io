@@ -2,6 +2,11 @@
 # Read me Jekyll. #kthxbye
 ---
 
+$cat: #673ab7;
+$tag: #009688;
+$foo: 1px solid;
+$trans: 0.2s ease-in-out;
+
 body, p, a { text-align: justify; }
 
 header div {
@@ -10,12 +15,6 @@ header div {
   @media screen and (min-width: 1024px) { width: 75%; }
   @media screen and (min-width: 1600px) { width: 50%; }
   @media screen and (max-width: 672px) { width: 100%; }
-  * { margin-left: 2em; }
-  h2 {
-    font-size: 1.5em;
-    font-weight: normal;
-    margin-top: 1em;
-  }
 
   // Starred Repository
   &#fav {
@@ -23,12 +22,55 @@ header div {
     border-radius: 0.3em;
     background-color: #ffffff;
     color: #606c71;
-    h2 { color: #159957; }
+    * { margin-left: 2em; }
+    h2 {
+      font-size: 1.5em;
+      font-weight: normal;
+      margin-top: 1em;
+      color: #159957;
+    }
   }
 
   // Blog Title, Author and Date
   &#post {
+    * { margin: 0; }
     div { display: none; }
+    h2 {
+      font-size: 2em;
+      margin-bottom: 0.3em;
+    }
+    p {
+      font-size: 0.75em;
+      font-style: italic;
+      color: rgba(255, 255, 255, 0.5);
+      span {
+        display: inline-block;
+        font-style: normal;
+        text-align: center;
+
+        margin: 0.3em;
+        padding: 0.3em;
+
+        background-color: #ffffff;
+        border-radius: 0.6em;
+        min-width: 6em;
+
+        transition: color $trans,
+                    background-color $trans;
+
+        &.category {
+          color: $cat;
+          border: $foo $cat;
+          &:hover { background-color: $cat; }
+        }
+        &.tag {
+          color: $tag;
+          border: $foo $tag;
+          &:hover { background-color: $tag; }
+        }
+        &:hover { color: #ffffff; }
+      }
+    }
   }
 }
 
