@@ -54,17 +54,17 @@ Remember, someone else may have a hard time reading a two-paragraph-long filenam
 
 That's it! Now you are capable of posting on [Calacirya]! Here is a checklist with all steps to follow:
 
-1. Read the [Code of Conduct]
-2. Read the [Contribution Guidelines]
-3. Ask the [Content team] for help and approaval
-4. Read this tutorial
-5. Copy the `template.md` file under `_drafts/`
-6. Understand the front matter of the file...
-7. ...and fill with your post's info
-8. Write the post
-9. Proofread your text
-10. Change the file name
-11. Move the new file into the `_posts/` folder
+1.  [ ] Read the [Code of Conduct]
+2.  [ ] Read the [Contribution Guidelines]
+3.  [ ] Ask the [Content team] for help and approaval
+4.  [ ] Read this tutorial
+5.  [ ] Copy the `template.md` file under `_drafts/`
+6.  [ ] Understand the front matter of the file...
+7.  [ ] ...and fill with your post's info
+8.  [ ] Write the post
+9.  [ ] Proofread your text
+10. [ ] Change the file name
+11. [ ] Move the new file into the `_posts/` folder
 
 ### :tada: You've done it! :confetti_ball:
 
