@@ -26,6 +26,9 @@ Principles of a change log, excerpted from [Keep a Changelog](http://keepachange
 
 ## [Unreleased]
 
+### Security
+ * Bump `nokogiri` to `1.10.4`.
+
 ## [1.0.0]
 
 ### Added

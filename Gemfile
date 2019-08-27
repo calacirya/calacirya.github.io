@@ -7,6 +7,8 @@ gem "jemoji", "~> 0.11.0"
 gem "jekyll-sitemap", "~> 1.3"
 gem "jekyll-feed", "~> 0.12.1"
 
+gem "nokogiri", ">= 1.10.4"
+
 install_if -> { RUBY_PLATFORM =~ %r!mingw|mswin|java! } do
   gem "tzinfo", "~> 1.2"
   gem "tzinfo-data"
